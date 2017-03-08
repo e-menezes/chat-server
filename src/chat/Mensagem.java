@@ -12,37 +12,37 @@ package chat;
 public class Mensagem {
 
     /**
-     * @return the origem
+     * @return the src
      */
-    public String getOrigem() {
-        return origem;
+    public String getSrc() {
+        return src;
     }
 
     /**
-     * @param origem the origem to set
+     * @param src the src to set
      */
-    public void setOrigem(String origem) {
-        this.origem = origem;
+    public void setSrc(String src) {
+        this.src = src;
     }
 
     /**
-     * @return the msg
+     * @return the data
      */
-    public String getMsg() {
-        return msg;
+    public String getData() {
+        return data;
     }
 
     /**
-     * @param msg the msg to set
+     * @param data the data to set
      */
-    public void setMsg(String msg) {
-        this.msg = msg;
+    public void setData(String data) {
+        this.data = data;
     }
-    private String origem;
-    private String msg;
+    private String src;
+    private String data;
     
-    public Mensagem(String src, String msg){
-        this.origem = src;
-        this.msg = msg;
+    public Mensagem(String src, String data){
+        this.src = src;
+        this.data = data;
     }
 }
